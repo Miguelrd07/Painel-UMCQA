@@ -4,7 +4,17 @@ Análise da qualidade da água nas quatro campanhas UMCQA (MG e ES): 2.445 regis
 
 **Autoria:** Miguel Rodrigues · 2026
 
-## Arquivos
+## Execução 2026 · UMCQA e CISAB (campanhas 1 a 4)
+
+| Arquivo | O que é |
+|---|---|
+| `Execucao_2026_UMCQA_CISAB.html` | Painel interativo em arquivo único (funciona sem internet). Sete áreas: Visão Geral, Análise por Município, Análise por Localidade, Parâmetros Monitorados, Comparativo UMCQA x CISAB, Comparativo entre Campanhas e Achados e Encaminhamentos. Traz os 32.091 registros das oito planilhas originais, cada um com arquivo e linha de origem. Elaboração: CGSAM/DESAM/FUNASA. |
+| `Execucao_Campanhas_UMCQA_CISAB_2026.xlsx` | Planilha consolidada de execução das campanhas para instrução de processo no SEI, com memória de cálculo por fórmula. |
+| `fonte/painel-interativo/` | Código-fonte do painel. Para gerar de novo o HTML: `python3 fonte/painel-interativo/build.py`. |
+
+Números da base: 4 campanhas, 32 municípios, 109 localidades (formas de abastecimento), 897 amostras coletadas (961 analisadas: UMCQA 489, CISAB 472; 64 amostras do CISAB da Campanha 1 são as mesmas coletas da UMCQA), 30.676 análises concluídas e 102 parâmetros distintos (UMCQA 5, CISAB 97, nenhum equivalente entre as instituições).
+
+## Arquivos do painel UMCQA (versão anterior)
 
 | Arquivo | O que é |
 |---|---|
